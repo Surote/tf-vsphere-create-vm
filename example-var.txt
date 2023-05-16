@@ -1,0 +1,15 @@
+vsphere_user="xxxxxx"
+vsphere_password="1234"
+vsphere_server="172.x.x.x"
+datacenter_name="DC01"
+folder="/DC01/vm/surote-folder"
+templatelocation="not-use"
+vmnetwork="my-net"
+compute={
+    tf-master-0={
+        disksize=100,
+        cpu=4,
+        memory=16384,
+        name="tf-ast-dis-master-0",
+   }
+}
